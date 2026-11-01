@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/videos/*
+outputs/screenshots/*
+!outputs/videos/.gitkeep
+!outputs/screenshots/.gitkeep
+
+# Model weights (track downloads outside git)
+models/*.pt
+models/*.onnx
+models/*.engine

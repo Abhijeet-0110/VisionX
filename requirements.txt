@@ -1,0 +1,12 @@
+# Core Deep Learning & Computer Vision
+ultralytics
+opencv-python
+numpy
+
+# Web Interface & Streaming
+streamlit
+streamlit-webrtc
+av
+
+# Testing & Quality Assurance
+pytest
